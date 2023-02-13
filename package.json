@@ -1,0 +1,27 @@
+{
+  "name": "@pedrozaalex/colors",
+  "version": "1.0.1",
+  "private": false,
+  "description": "Color stuff helper functions",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "keywords": [
+    "github",
+    "colors",
+    "languages"
+  ],
+  "author": "Alexandre Pedroza",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "md5": "^2.3.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publish": "pnpm publish --access public"
+  }
+}
