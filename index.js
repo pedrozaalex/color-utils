@@ -1,5 +1,5 @@
 import md5 from "md5";
-import GitHubLanguageColors from "./colors.json";
+import GitHubLanguageColors from "./colors.json" assert { type: "json" };
 export function getColorForLanguage(language) {
     if (!language) {
         return "#000000";
