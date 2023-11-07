@@ -1,6 +1,6 @@
 {
   "name": "@pedrozaalex/colors",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "Color stuff helper functions",
   "main": "index.js",
